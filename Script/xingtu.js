@@ -6,7 +6,7 @@
 *******************************
 
 [rewrite_local]
-^http[s]?:\/\/commerce-api.faceu.mobi\/commerce\/v1\/subscription\/user_info.+$ url script-response-body xingtu.js
+^http[s]?:\/\/commerce-api.faceu.mobi\/commerce\/v1\/subscription\/user_info.+$ url script-response-body https://raw.githubusercontent.com/Army121/Quantumult-x/main/Script/xingtu.js
 
 [mitm] 
 hostname = *.faceu.*
